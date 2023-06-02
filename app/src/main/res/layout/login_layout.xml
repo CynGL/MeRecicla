@@ -94,14 +94,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="45dp"
+                android:background="@drawable/redondo"
                 android:fontFamily="@font/cocogooseprosemilighttrial"
-                style="Button"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
                 android:text="ENTRAR" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/redondo"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Tertiary"
                 android:fontFamily="@font/cocogooseprosemilighttrial"
                 android:text="SAIR"
                 android:theme="@style/Button.White" />
